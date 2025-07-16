@@ -74,7 +74,7 @@ Avant, on utilisait une notion de classe d'adresse, qui a été remplacée par C
 ### IPv6
 Contrairement aux adresses IPv4 qui sont composées de 32 bits (par exemple, 192.168.1.1), les adresses IPv6 sont composées de 128 bits. 
 
-Les adresses IPv6 sont représentées en notation hexadécimale, avec huit groupes de quatre chiffres hexadécimaux séparés par des deux-points. Par exemple : 2001:0db8:85a3:0000:0000:8a2e:0370:7334.
+Les adresses IPv6 sont représentées en notation hexadécimale, avec huit groupes de quatre chiffres hexadécimaux séparés par des deux-points. Par exemple : 2001:0db8:85a3:0000:0000:8a2e:0370:7334. On peut supprimer les ``0000`` (et le ``:`` qui les sépare si sont à la suite) pour simplifier (2001:0db8:85a3::8a2e:0370:7334).
 
 
 ## Quelques adresses avec une signification particulière
