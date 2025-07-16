@@ -67,7 +67,7 @@ Par exemple, avec l’adresse IP 192.168.1.10 et le masque 255.255.255.0, l’ad
 
 #### Notation CIDR (Classless Inter-Domain Routing) :
 
-Avant, on utilisait une notion de classe d'adresse, qui a été remplacée par CIDR, la notion de classes d’adresse a été remplacée par un système plus flexible. CIDR utilise une notation en barre oblique (/) suivie du nombre de bits à 1 dans le masque. Par exemple, /24 pour 255.255.255.0.
+Avant, on utilisait une notion de classe d'adresse, qui a été remplacée par CIDR, un système plus flexible. CIDR utilise une notation en barre oblique (/) suivie du nombre de bits à 1 dans le masque. Par exemple, /24 pour 255.255.255.0.
 
 
 
