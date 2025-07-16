@@ -89,4 +89,6 @@ Les adresses IPv6 sont représentées en notation hexadécimale, avec huit group
 | 193.104.1.255 | Tous les hôtes du 193.104.1.0  |
 | 127.0.0.1 | Cet hôte (boucle locale)  |
 
- 	
+ 	https://blog.stephane-robert.info/docs/reseaux/protocole-ip/
+
+  https://laissus.developpez.com/tutoriels/cours-introduction-tcp-ip/?page=page_4#L4-2-4
