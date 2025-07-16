@@ -15,7 +15,7 @@ identifie les adresses des ordinateurs impliqués.
 transmet les informations d'une adresse à l'autre.
 
 
-Les informations sont transmises en **paquets** afin de ne pas devoir tout renvoyer en cas de problème. Ils sont réassemblés une fois arrivés. Chaque paquet peut prendre un chemin différent, pour faciliter la circulation. Le meilleur chemin possible est déterminé par les routeurs et les commutateurs.
+Les informations sont transmises en **paquets** (fragmentation) afin de ne pas devoir tout renvoyer en cas de problème. Ils sont réassemblés (défragementation) une fois arrivés. Chaque paquet peut prendre un chemin différent, pour faciliter la circulation. Le meilleur chemin possible est déterminé par les routeurs et les commutateurs.
 
 Les informations sont également transmises en **4 couches**, afin de respecter des standards facilitant la communication (telle information dans telle couche) et la mise à jour (uniquement les couches concernées au lieu de l'ensemble).
 
