@@ -8,10 +8,13 @@ Organise/ordonne la communication:
 - est-ce que l'info a bien été transmise
 - quand elle finit.
 
-**IP:** identifie les adresses des ordinateurs impliqués.
+#### IP: 
+identifie les adresses des ordinateurs impliqués.
 
-**TCP:** transmet les informations d'une adresse à l'autre.
+#### TCP:
+transmet les informations d'une adresse à l'autre.
 
-Les informations sont transmises en paquets afin de ne pas devoir tout renvoyer en cas de problème. Ils sont réassemblés une fois arrivés. Chaque paquet peut prendre un chemin différent, pour faciliter la circulation.
 
-Les informations sont également transmises en 4 couches, afin de respecter des standards facilitant la communication (telle information dans telle couche) et la mise à jour (uniquement les couches concernées au lieu de l'ensemble).
+Les informations sont transmises en **paquets** afin de ne pas devoir tout renvoyer en cas de problème. Ils sont réassemblés une fois arrivés. Chaque paquet peut prendre un chemin différent, pour faciliter la circulation.
+
+Les informations sont également transmises en **4 couches**, afin de respecter des standards facilitant la communication (telle information dans telle couche) et la mise à jour (uniquement les couches concernées au lieu de l'ensemble).
