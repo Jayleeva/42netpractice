@@ -77,3 +77,16 @@ Contrairement aux adresses IPv4 qui sont composées de 32 bits (par exemple, 192
 Les adresses IPv6 sont représentées en notation hexadécimale, avec huit groupes de quatre chiffres hexadécimaux séparés par des deux-points. Par exemple : 2001:0db8:85a3:0000:0000:8a2e:0370:7334.
 
 
+# Quelques adresses à connaître
+
+|    Adresse    |      Hôte    |
+| ------------- | ------------- |
+| 0.0.0.0 | Hôte inconnu, sur ce réseau  |
+| 0.0.0.1 | L'hôte 1 de ce réseau  |
+| 255.255.255.255 | Tous les hôtes |
+| 138.195.52.1 | L'hôte 52.1 du réseau 138.195.0.0  |
+| 138.195.0.0 | Cet hôte sur le 138.195.0.0  |
+| 193.104.1.255 | Tous les hôtes du 193.104.1.0  |
+| 127.0.0.1 | Cet hôte (boucle locale)  |
+
+ 	
