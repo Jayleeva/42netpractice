@@ -34,9 +34,13 @@ Ce que l'utilisateur voit.
 Comme les paquets ne sont pas chiffrés, ils sont accessibles à qui sait y faire, d'autant plus sur un wifi public. Un VPN les chiffre.
 
 ## Les types d'adresses IP
-Il existe 2 types:
+Il existe 2 types de durée:
 - statique: reste toujours la même.
 - dynamique: est modifiée de temps en temps et sert un peu de tampon: pour imager, on connaît l'adresse de l'hôtel mais pas le numéro de chambre.
+
+Et 2 types d'accès:
+- privée: utilisée au sein de réseaux locaux, n'est pas routable sur Internet. Pour la version 4, des plages spécifiques sont réservées pour les adresses privées, comme 192.168.x.x, 10.x.x.x et 172.16.x.x à 172.31.x.x.
+- publique: permet de se connecter à internt. Chaque IP publique est uniques à travers le monde. 
 
 Et 2 versions:
 - IPv4 (version 4): ancienne version, quand on avait besoin de moins d'adresses IP et qu'elles étaient donc moins longues.
@@ -64,3 +68,12 @@ Par exemple, avec l’adresse IP 192.168.1.10 et le masque 255.255.255.0, l’ad
 #### Notation CIDR (Classless Inter-Domain Routing) :
 
 Avec l’introduction de CIDR, la notion de classes d’adresse a été remplacée par un système plus flexible. CIDR utilise une notation en barre oblique (/) suivie du nombre de bits à 1 dans le masque. Par exemple, /24 pour 255.255.255.0.
+
+
+
+### IPv6
+Contrairement aux adresses IPv4 qui sont composées de 32 bits (par exemple, 192.168.1.1), les adresses IPv6 sont composées de 128 bits. 
+
+Les adresses IPv6 sont représentées en notation hexadécimale, avec huit groupes de quatre chiffres hexadécimaux séparés par des deux-points. Par exemple : 2001:0db8:85a3:0000:0000:8a2e:0370:7334.
+
+
