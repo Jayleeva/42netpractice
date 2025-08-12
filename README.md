@@ -100,6 +100,8 @@ Pour pouvoir créer un réseau (plusieurs machines connectées entre elles), on 
 
 Le masque est lui aussi composé de 4 bytes (8 bits chacun), également contenus entre 0 et 255. **Quand un byte de masque est à 255, cela signifie que toutes les machines d'un même réseau doivent avoir des adresses IP qui partagent le même xème byte.** Par exemple, avec un masque de 255.255.0.0 et adresse de sous-réseau de 108.210.0.0, les adresses IP possibles commenceront toutes par 108.210. Comme les deux derniers bytes du masque sont à 0, ceux des adresses IP seront "à choix" (en respectant une certaine logique tout de même) entre 1 et 254. Oui, pas de 0 à 255, car **le 0 est réservé au sous-réseau (la référence pour les adresses IP de votre réseau) et le 255 pour la diffusion**. Ainsi, des adresses IP valables pour 2 machines l'une à côté de l'autre dans un bureau seraient par exemple: 108.210.42.12 et 108.210.42.13, et pour celle dans une pièce à côté par exemple: 108.210.41.7.
 
+Les machines reliées entre elles par des routeurs impliquent la nécessisté de routes: pour atteindre depuis 'A' les adresses IP 'C', il faut passer par l'adresse IP 'B' (entrée du routeur). Oui, "les" adresses IP 'C', car la même route peut être empruntée pour atteindre différentes adresses proches les unes des autres. Il faut alors préciser la plage d'adresses qui peuvent emprunter cette route. Cela se fait en ajoutant le masque après un ``/``, à la suite de l'adresse du sous-réseau concerné, par exmeple: 108.210.42.0/24.
+
 **Attention!! Certaines adresses IP dites "privées" ne peuvent pas recevoir de paquets de la part d'internet!!!**
 - Classe A: 10.0.0.0 à 10.255.255.255
 - Classe B: 172.16.0.0 à 172.31.0.0
