@@ -102,7 +102,7 @@ Le masque est lui aussi composé de 4 bytes (8 bits chacun), également contenus
 
 Les machines reliées entre elles par des routeurs impliquent la nécessisté de routes: pour atteindre depuis 'A' les adresses IP 'C', il faut passer par l'adresse IP 'B' (entrée du routeur). Oui, "les" adresses IP 'C', car la même route peut être empruntée pour atteindre différentes adresses proches les unes des autres. Il faut alors préciser la plage d'adresses qui peuvent emprunter cette route. Cela se fait en ajoutant le masque après un ``/``, à la suite de l'adresse du sous-réseau concerné, par exemple: 108.210.42.0/24.
 
-Le masque peut donc s'écrire soit sous forme de 4 bytes (ex. 255.255.255.0), soit par le numéro de bit correspondant au masque (voir tableau):
+**Le masque peut donc s'écrire soit sous forme de 4 bytes (ex. 255.255.255.0), soit par le numéro de bit correspondant au masque (ex. /24, voir tableau):**
 
 <img width="1166" height="99" alt="tableau_masque" src="https://github.com/user-attachments/assets/03c67af6-6927-4caf-8a65-1d823f82d7f9" />
 
