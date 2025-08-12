@@ -91,4 +91,12 @@ Les adresses IPv6 sont représentées en notation hexadécimale, avec huit group
 
  	https://blog.stephane-robert.info/docs/reseaux/protocole-ip/
 
+
+ # A savoir pour faire les exercices
+
+Toutes les plages existantes sont contenues dans 4 bytes (8 bits chacun):
+ | bit | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |  | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |  | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 |  | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 |
+ | masque | 128 | 192 | 224 | 240 | 248 | 252 | 254 | 255 |  | 128 | 192 | 224 | 240 | 248 | 252 | 254 | 255 |  | 128 | 192 | 224 | 240 | 248 | 252 | 254 | 255 |  | 128 | 192 | 224 | 240 | 248 | 252 | 254 | 255 |  
+ | nombre d'adresses possibles avec ce masque | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |  | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |  | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |  | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |  
+
   https://laissus.developpez.com/tutoriels/cours-introduction-tcp-ip/?page=page_4#L4-2-4
