@@ -104,7 +104,8 @@ Les machines reliées entre elles par des routeurs impliquent la nécessité de 
 
 **Le masque peut donc s'écrire soit sous forme de 4 bytes (ex. 255.255.255.0), soit par le numéro de bit correspondant au masque (ex. /24, voir tableau):**
 
-<img width="1166" height="99" alt="tableau_masque" src="https://github.com/user-attachments/assets/03c67af6-6927-4caf-8a65-1d823f82d7f9" />
+<img width="1314" height="289" alt="tableau_masque" src="https://github.com/user-attachments/assets/7933a20c-0a70-47d9-b73c-6469b20b70ab" />
+
 
 **Attention!! Certaines adresses IP dites "privées" ne peuvent pas recevoir de paquets de la part d'internet!!!**
 - Classe A: 10.0.0.0 à 10.255.255.255
