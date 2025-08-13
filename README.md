@@ -104,12 +104,14 @@ Les machines reliées entre elles par des routeurs impliquent la nécessité de 
 
 **Le masque peut donc s'écrire soit sous forme de 4 bytes (ex. 255.255.255.0), soit par le numéro de bit correspondant au masque (ex. /24, voir tableau):**
 
-<img width="1166" height="99" alt="tableau_masque" src="https://github.com/user-attachments/assets/03c67af6-6927-4caf-8a65-1d823f82d7f9" />
+
+<img width="1315" height="313" alt="tableau_masque" src="https://github.com/user-attachments/assets/2fb84601-77e5-415e-b9c5-3b3d21f5160b" />
+
 
 **Attention!! Certaines adresses IP dites "privées" ne peuvent pas recevoir de paquets de la part d'internet!!!**
 - Classe A: 10.0.0.0 à 10.255.255.255
 - Classe B: 172.16.0.0 à 172.31.0.0
 - Classe C: 192.168.0.0 à 192.168.255.255
 
-
+Les adresses IPs reliées entre elles (ex. A1 et R11; R12 et R21; R22 et C1) font partie d'un même sous-réseau (dans l'exemple, 3 sous-réseaux). Comme dans cet exemple nous n'avons besoin que de 2 adresses IP par sous-réseaux, on utilise le masque 255.255.255.252 pour chacun. Les adresses IP de A1 et R11 seront donc très proches (ex.: 90.198.14.2 et 90.198.14.1), tout comme celles de R12 et R21 (90.198.14.254 et 90.198.14.253), et celles de R22 et C1 (90.198.14.5 et 90.198.14.6). Si un des sous-réseaux avait plus d'appareils, nécessitant alors plus d'adresses, il utiliserait un masque différent.
 
