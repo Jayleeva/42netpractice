@@ -111,5 +111,5 @@ Les machines reliées entre elles par des routeurs impliquent la nécessité de 
 - Classe B: 172.16.0.0 à 172.31.0.0
 - Classe C: 192.168.0.0 à 192.168.255.255
 
-
+Les adresses IPs reliées entre elles (ex. A1 et R11; R12 et R21; R22 et C1) font partie d'un même sous-réseau (dans l'exemple, 3 sous-réseaux). Comme dans cet exemple nous n'avons besoin que de 2 adresses IP par sous-réseaux, on utilise le masque 255.255.255.252. Les adresses IP de A1 et R11 seront donc très proches (ex.: 90.198.14.2 et 90.198.14.1), tout comme celles de R12 et R21 (90.198.14.254 et 90.198.14.253), et celles de R22 et C1 (90.198.14.5 et 90.198.14.6).
 
