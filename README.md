@@ -105,7 +105,7 @@ Les machines reliées entre elles par des routeurs impliquent la nécessité de 
 **Le masque peut donc s'écrire soit sous forme de 4 bytes (ex. 255.255.255.0), soit par le numéro de bit correspondant au masque (ex. /24, voir tableau):**
 
 
-<img width="1315" height="313" alt="tableau_masque" src="https://github.com/user-attachments/assets/2fb84601-77e5-415e-b9c5-3b3d21f5160b" />
+<img width="1316" height="315" alt="tableau_masque" src="https://github.com/user-attachments/assets/c95f9f96-84a0-452e-a130-84847def7f3b" />
 
 
 **Attention!! Certaines adresses IP dites "privées" ne peuvent pas recevoir de paquets de la part d'internet!!!**
